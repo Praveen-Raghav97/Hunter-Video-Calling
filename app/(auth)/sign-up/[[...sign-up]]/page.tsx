@@ -1,7 +1,7 @@
 import { SignUp } from '@clerk/nextjs'
-import React from 'react'
 
-const SignUpPAge = () => {
+
+export default function SignUpPAge () {
   return (
     <main className='flex h-screen w-full items-center justify-center  '>
     <SignUp/>
@@ -9,4 +9,3 @@ const SignUpPAge = () => {
   )
 }
 
-export default SignUpPAge
