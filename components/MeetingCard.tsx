@@ -75,7 +75,7 @@ const MeetingCard = (
                   title: "Link Copied",
                 });
               }}
-              className="bg-dark-4 px-6"
+              className="bg-green-600 px-6 "
             >
               <Image
                 src="/icons/copy.svg"

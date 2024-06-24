@@ -21,7 +21,7 @@ const Home = () => {
 
   
   return (
-    <section className='flex size-full flex-col gap-10 text-white'>
+    <section className='flex size-full flex-col gap-10 text-white pb-14'>
      <div className='h-[300px] w-full rounded-[20px] bg-hero bg-cover'>
       <div className=' flex h-full flex-col justify-between max-md:py-8 lg:p-11
       '>
