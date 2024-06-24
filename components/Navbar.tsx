@@ -9,7 +9,7 @@ const Navbar = () => {
     bg-dark-1 px-6 py-4 lg:px-10'>
       <Link href='/' className = 'flex item-center gap-1'>
       <Image
-      src="/icons/logo.svg" 
+      src="/icons/menu.png" 
       width={32}
       height={32}
       alt='Yoom logo'
