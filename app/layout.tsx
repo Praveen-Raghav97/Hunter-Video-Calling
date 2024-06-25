@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/toaster"
-const inter = Inter({ subsets: ["latin"] });
+const outfit = Outfit({ subsets: ["latin"], weight :["400" , "500" , "600" , "300"] });
 import "@stream-io/video-react-sdk/dist/css/styles.css";
 import "react-datepicker/dist/react-datepicker.css"
 
@@ -38,7 +38,7 @@ export default function RootLayout({
           },
         }}>
 
-      <body className={`${inter.className} bg-dark-2`}>
+      <body className={`${outfit.className} bg-dark-2`}>
         {children}
         <Toaster />
         </body>
