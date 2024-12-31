@@ -1,6 +1,6 @@
 # Hunter Video Calling App
 
-![Hunter Video Calling App](./public/project-banner.jpg)
+![Hunter Video Calling App](https://res.cloudinary.com/derlbfbjz/image/upload/v1735633082/hunt-pro1_ahqroq.png)
 
 Hunter is a seamless video calling application built using **Next.js** and **Tailwind CSS**, with secure authentication powered by **Clerk**. Whether you're looking to connect with friends, family, or colleagues, Hunter makes it easy, fast, and reliable.
 
