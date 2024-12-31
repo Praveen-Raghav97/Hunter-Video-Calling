@@ -105,7 +105,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 
 ## 📞 Support
 
-If you have any questions or need support, feel free to open an issue or reach out to me via email at rishavthakur9027@gmail.com.com.
+If you have any questions or need support, feel free to open an issue or reach out to me via email at rishavthakur9027@gmail.com.
 
 ---
 
