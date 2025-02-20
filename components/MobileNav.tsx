@@ -33,7 +33,7 @@ const MobileNav = () => {
     />
 
   </SheetTrigger>
-  <SheetContent side='left' className='border-none bg-dark-1 '>
+  <SheetContent side='left' className='border-none bg-lite-4 '>
   <Link href='/' className = 'flex item-center gap-1 '>
       <Image
       src="/icons/logo.svg" 

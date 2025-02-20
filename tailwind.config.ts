@@ -25,6 +25,12 @@ const config = {
           3: '#252A41',
           4: '#1E2757',
       },
+      lite:{
+        1: '#EDE9FE',
+        2: '#C5CAE9',
+        3: '#2563EB',
+        4: '#121063',
+      },
       blue :{
           1:'#0E78F9'
       },
@@ -47,7 +53,7 @@ const config = {
      
     },
       backgroundImage: {
-        hero:"url('/images/hero-background.png')"
+        hero:"url('https://stream-blog-v2.imgix.net/blog/wp-content/uploads/3c9c034acb28c814f1248c685bfc4d94/Top-6-Most-Secure-Video-Calling-Apps-1200x630-1.jpg?auto=format&auto=compress')"
       },
       keyframes: {
         "accordion-down": {

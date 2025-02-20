@@ -6,7 +6,7 @@ import { SignedIn, UserButton } from '@clerk/nextjs'
 const Navbar = () => {
   return (
     <nav className=' flex flex-between fixed z-50 w-full 
-    bg-dark-1 px-6 py-4 lg:px-10'>
+    bg-indigo-50 text-dark-1 px-6 py-3 lg:px-10'>
       <Link href='/' className = 'flex item-center gap-1'>
       <Image
       src="/icons/logo.svg" 
@@ -15,12 +15,12 @@ const Navbar = () => {
       alt='Hunter logo'
       className='max-sm:size-10'
       />
-      <p className='text-[26px] font-extrabold text-white max-sm:hidden'>Hunter</p>
+      <p className='text-[26px] font-extrabold text-dark-1 max-sm:hidden'>Hunter</p>
       </Link>
       <div className='flex-between gap-5'>
        
         <SignedIn>
-          <UserButton />
+          <UserButton  />
         </SignedIn>
 
         <MobileNav/>
