@@ -15,7 +15,7 @@ const Navbar = () => {
       alt='Hunter logo'
       className='max-sm:size-10'
       />
-      <p className='text-[26px] font-extrabold text-dark-1 max-sm:hidden'>Hunter</p>
+      <p className='text-[26px] font-bold text-dark-1 max-sm:hidden'>Hunter</p>
       </Link>
       <div className='flex-between gap-5'>
        
