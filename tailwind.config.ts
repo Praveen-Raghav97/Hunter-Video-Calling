@@ -26,13 +26,13 @@ const config = {
           4: '#1E2757',
       },
       lite:{
-        1: '#EDE9FE',
-        2: '#C5CAE9',
-        3: '#2563EB',
-        4: '#121063',
+        1: 'gray-300',
+        2: '#E5E7EB',
+        3: '#D1D5DB',
+        4: '#9CA3AF',
       },
       blue :{
-          1:'#0E78F9'
+          1:'#4318FF'
       },
       sky:{
         1: '#C9DDFF',
@@ -44,11 +44,12 @@ const config = {
        
       },
       purple: {
-        1: '#830EF9',
+        1: '#EDEBFE',
       },
       
-      yellow: {
-        1: '#F9A90E',
+      green: {
+        1: '#05CD99',
+        2:'#01B574',
       },
      
     },

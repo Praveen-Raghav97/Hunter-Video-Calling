@@ -5,9 +5,9 @@ import MobileNav from './MobileNav'
 import { SignedIn, UserButton } from '@clerk/nextjs'
 const Navbar = () => {
   return (
-    <nav className=' flex flex-between fixed z-50 w-full 
-    bg-indigo-50 text-dark-1 px-6 py-3 lg:px-10'>
-      <Link href='/' className = 'flex item-center gap-1'>
+    <nav className=' flex flex-between  fixed z-50 w-full 
+    text-dark-1 px-6 py-3 lg:px-10'>
+      <Link href='/' className = 'flex pt-5 justify-center item-center gap-1'>
       <Image
       src="/icons/logo.svg" 
       width={32}

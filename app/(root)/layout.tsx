@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const Rootlayout = ({children } : {children :ReactNode}) => {
 
   return (
-    <main>
+    <main className='bg-dark-3'>
     <StreamVideoProvider>
     {children}
     </StreamVideoProvider>

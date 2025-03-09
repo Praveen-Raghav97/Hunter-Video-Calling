@@ -6,7 +6,16 @@ import { Toaster } from "@/components/ui/toaster"
 const outfit = Outfit({ subsets: ["latin"], weight :["400" , "500" , "600" , "300"] });
 import "@stream-io/video-react-sdk/dist/css/styles.css";
 import "react-datepicker/dist/react-datepicker.css"
+import { Inter, Roboto_Mono } from "next/font/google";
 
+const geistSans = Inter({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+const geistMono = Roboto_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
 export const metadata: Metadata = {
   title: "Hunter",
   description: "A Video Calling App",
@@ -30,15 +39,19 @@ export default function RootLayout({
             
           },
           variables: {
-            colorText: "#fff",
-            colorPrimary: "#fff",
-            colorBackground: "#121063",
-            colorInputBackground: "#252A41",
-            colorInputText: "#fff",
+            colorText:"#252A41",
+            colorPrimary:"#252A41",
+            colorBackground: "#fff",
+            colorInputBackground:"#E5E7EB",
+            colorInputText: "#161925",
+            colorWarning: "#FF742E",
+            colorSuccess: "#05CD99",
+            
+          
           },
         }}>
 
-      <body className={`${outfit.className} bg-lite-1 `}>
+      <body className={`${geistSans.variable} ${geistMono.variable}  bg-purple-1`}>
         {children}
         <Toaster />
         </body>
